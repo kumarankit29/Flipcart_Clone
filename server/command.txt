@@ -1,0 +1,14 @@
+npm init
+npm i express =>> then in package.json after mai use type = "module" for es6 express
+
+npm i nodemon =>> is ko install krte hai toh fil mai jo bhi change hoga automatically detect krega server bar bar restart nahi krna hoga
+npm i mongoose =>> mongo db k feature milenge
+ npm i dotenv =>> for hiding credential
+
+ npm i cors =>> use when data fetch from multiple backend
+
+ npm i body-parser ==>> for response (post api k liye)
+parser use kiya kyuki url mai log space dalte hai jo url valid nhi rehta fir
+
+
+npm install concurrently --save // use to run backend frontend same time from client folder

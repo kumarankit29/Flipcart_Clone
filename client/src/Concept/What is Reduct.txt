@@ -1,0 +1,21 @@
+Redux is database of frontend, we store the states in frontend in centralize database/repository which is called Redux
+
+npm i redux // install 
+we use extension in chrome react developer tool and redux dev tool extension
+
+
+we creating Redux folder 
+  - action ( phle api.js se api call hota tha but abb redux se action mai hoga)
+  - reducer
+  - constants
+  - store.js ki file banani hogi jo redux extension k store se connect
+
+reducer and middleware pass krte hai 
+     for middle ware install : 
+     // npm i redux-devtools-extension // composWithTool milega is k function m argument middleware hai jo is command se install hoga
+     //npm i redux-thunk  --------- ye action m kam aaega jab api call krenge
+
+
+
+Just like for context we warps app. js with ContextProvider same we have to wrap whole aplllication with store so we wrapp index.js by using package 
+  --    : npm i react-redux // because ye redux provider deta hai
